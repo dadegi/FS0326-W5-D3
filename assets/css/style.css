@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+h1,
+h2 {
+	text-align: center;
+}
+
+.justify {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.align {
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    /* align-items: flex-start; */
+    height: 200px;
+}
+
+.combine {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: 1px solid black;
+    padding: 10px;
+    height: 600px;
+}
+
+.justify div, .align div, .combine div {
+    border: 3px solid red;
+    width: 20%;
+    text-align: center;
+}
+
+.align img {
+    width: 20%;
+}
